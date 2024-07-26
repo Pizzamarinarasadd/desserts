@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+}
+
+.content {
+    background-color: white;
+    padding: 1rem;
+    width: 350px;
+    border-radius: 1em;
+}
+
+.btn {
+    border-radius: 1em;
+}
+
+.cart-content {
+    justify-content: space-between;
+}
+
+.add-to-cart {
+    display: block;
+    margin: 0 auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 1em;
+    margin: 10px;
+    padding: 5px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 20px;
+}
+img{
+    border-radius:1em;
+    margin-bottom: 5px;
+}
